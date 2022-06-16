@@ -1,7 +1,7 @@
 body{
-	background-image:url(foto2.jpeg);
-	background-repeat: no-repeat;
-	background-size: cover;
+	background-image:url(foto8.jpg);
+	background-repeat: ;
+	
 
  
 }
@@ -9,38 +9,51 @@ body{
 .div1 h1{
 	color: white;
 	background-color:rgb(36 201 43);
-	width: 400px;
-	height: cover;
-	margin-left: 300px;
-	padding: 0.5em;
-	border-radius: 20px;
-
+	
 }
 
 .div2 a{
 	color: black;
 	background-color:#C0C0C0;
 	width: 400px;
-	margin-left: 320px;
-	padding: 0.5em; 
+	
+	
+	padding: 0.2em;
 	border-radius: 20px;
-
-
 
 }
 
 .div3 h1{
 	font-size: 70px;
+	
 }
 
 .div4 p{
 	text-align: center;
-	color: 	#00BFFF;
+	color: white;
 	margin-left: 30px;
 }
 
 .div5 p{
 	margin-left: 40px;
+}
+
+.div6 input{
+	margin-left: 400px;
+	padding: 0.9em; 
+	border-radius: 10px;
+	
+
+}
+.div7 video{ 
+
+
+	
+
+}
+
+.div8 p{
+	height: 20px; 
 }
 
 
