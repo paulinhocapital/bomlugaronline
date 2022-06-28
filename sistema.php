@@ -6,7 +6,7 @@
     {
         unset($_SESSION['email']);
         unset($_SESSION['senha']);
-        header('Location: sistema.php');
+        header('Location: textLogin.php');
     }
     $logado = $_SESSION['email'];
 ?>
