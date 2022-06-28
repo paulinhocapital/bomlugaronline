@@ -19,22 +19,22 @@
         // print_r($sql);
         // print_r($result);
 
-        if(mysqli_num_rows($result) < 1)
-        {
-            unset($_SESSION['email']);
-            unset($_SESSION['senha']);
-            header('Location: login.html');
-        }
-        else
-        {
-            $_SESSION['email'] = $email;
-            $_SESSION['senha'] = $senha;
-            header('Location: sistema.html');
-        }
-    }
-    else
-    {
-        // Não acessa
-        header('Location: login.html');
-    }
+        //     if(mysqli_num_rows($result) < 1)
+    //     {
+    //         unset($_SESSION['email']);
+    //         unset($_SESSION['senha']);
+    //         header('Location: login.html');
+    //     }
+    //     else
+    //     {
+    //         $_SESSION['email'] = $email;
+    //         $_SESSION['senha'] = $senha;
+    //         header('Location: sistema.html');
+    //     }
+    // }
+    // else
+    // {
+    //     // Não acessa
+    //     header('Location: login.html');
+    // }
 ?>
